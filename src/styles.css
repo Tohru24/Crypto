@@ -34,6 +34,10 @@ t1{
     margin-right: 5rem; 
     margin-left: 5rem;
 }
+
+.links_1 a:visited {
+    color: #fff; 
+}
 .links_1 {
     text-align: center; 
     margin-bottom: 3rem;
@@ -68,12 +72,15 @@ t1{
 .footer_content .right {
     display: flex;
 }
+.footer_content .right a img {
+    max-width: 40px;
+}
 
 .footer_content .right a {
     margin-left: 10px;
 }
 
-.column-hidden { /* Cambiado de column_hidden */
+.column-hidden { 
     display: flex;
     justify-content: space-between;
     margin-bottom: 3rem;
@@ -85,5 +92,5 @@ t1{
 }
 
 .column-hidden.show {
-    display: none; /* Cambiado de display: none; */
+    display: none;
 }
