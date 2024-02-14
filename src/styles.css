@@ -1,56 +1,63 @@
 body {
     background-color: black;
-    color: white; 
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
+
 img {
-    max-width: 100px; 
+    max-width: 15%;
     height: auto;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 2rem  auto;
+    margin: 2% auto; 
+    display: block;
+    align-self: center;
 }
-t1{
-    font-size: 3rem;
+
+h1, t1 {
+    font-size: 3.5vw;
     padding-top: 2rem;
-}
-.content{
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10rem;
-}
-.content p{
     text-align: center;
-    width: 1000px; 
-    overflow-wrap: break-word;
-    margin: 0 auto;
 }
+
+.content {
+    min-height: 60vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    padding: 0 1rem; 
+}
+
+.content p {
+    text-align: center;
+    max-width: 80%;
+    font-size: 2vw;
+}
+
+.links_1 {
+    text-align: center; 
+    margin-top: 3%;
+}
+
 .links_1 a {
-    display: inline-block;
-    align-content: space-between;
-    
-    margin-right: 5rem; 
-    margin-left: 5rem;
+    margin: 0 5rem;
+    font-size: 1.5vw;
 }
 
 .links_1 a:visited {
     color: #fff; 
 }
-.links_1 {
-    text-align: center; 
-    margin-bottom: 3rem;
-}
 
 .footer_content {
     background-color: #000;
-    border-top: #fff;
     color: white;
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1rem;
 }
 
 .footer_content button {
@@ -65,28 +72,25 @@ t1{
     margin-right: 1rem;
 }
 
-.footer_content .left{
-    display: flex;
-}
-
+.footer_content .left,
 .footer_content .right {
     display: flex;
-}
-.footer_content .right a img {
-    max-width: 40px;
+    align-items: center;
 }
 
 .footer_content .right a {
     margin-left: 10px;
 }
 
+.footer_content .right a img {
+    max-width: 40px;
+}
+
 .column-hidden { 
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3rem;
-    margin-left: 5rem;
-    overflow-wrap: break-word;
-    width: 75rem;
+    margin: auto;
+    width: 75%; 
     text-align: center;
     border-color: #fff;
 }
